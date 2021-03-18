@@ -19,6 +19,11 @@ public class SpringCloudClientController extends InjectAutowiredImpl{
     	return ResponseEntity.ok(returnHerokuPerson());
     }
     
+    @GetMapping("/herokuPersonMysql")
+    public ResponseEntity<?> herokuCredentialsPerson() {
+    	return ResponseEntity.ok(returnCredentialsPerson());
+    }
+    
     @GetMapping("/heroku")
     public String heroku(){
     	return heroku();
