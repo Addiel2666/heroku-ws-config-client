@@ -60,12 +60,6 @@
 			<artifactId>lombok</artifactId>
 		</dependency>
 		
-		<dependency>
-			<groupId>com.heroku.commons</groupId>
-			<artifactId>heroku-ws-commons</artifactId>
-			<version>1.0.0</version>
-		</dependency>
-		
 	</dependencies>
 
 	<dependencyManagement>
